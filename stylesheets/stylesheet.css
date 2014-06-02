@@ -111,6 +111,7 @@ header h2 {
 #content-wrapper {
   border-top: solid 1px #fff;
   padding-top: 30px;
+  padding-left: 0px;
 }
 
 .main-content {
@@ -123,7 +124,7 @@ header h2 {
 }
 
 aside#sidebar {
-  width: 200px;
+  width: 148px;
   padding-left: 20px;
   min-height: 504px;
   float: right;
@@ -241,6 +242,13 @@ form {
 
 
 /* GENERAL ELEMENT TYPE STYLES */
+
+.main-content {
+  margin-top: 15px;
+  padding-left: 5.0em;
+  border-style: solid;;
+  border-color: #7dd1ff;
+} 
 
 .main-content h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
