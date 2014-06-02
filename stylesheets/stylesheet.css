@@ -162,7 +162,7 @@ header a.button {
 
 a.button1 {
   width: 138px;
-  padding-top: 25px;
+  padding-top: 20px;
   padding-bottom: 10px;
   padding-right:64px;
   padding-left: 64px;
@@ -261,6 +261,13 @@ form {
   padding-left: 5.0em;
   border-style: solid;;
   border-color: #7dd1ff;
+} 
+
+.main-content .date {
+  font-size:12px;
+  text-align:right;
+  color:#808080;
+  padding-right: 10px;
 } 
 
 .main-content a1 {
