@@ -146,16 +146,11 @@ a.button {
   width: 134px;
   height: 58px;
   line-height: 1.2;
-  font-size: 23px;
+  font-size: 16px;
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-}
-
-a.button small {
-  display: block;
-  font-size: 11px;
 }
 
 header a.button {
@@ -163,6 +158,19 @@ header a.button {
   right: 0;
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
+}
+
+a.button1 {
+  width: 138px;
+  padding-top: 25px;
+  padding-bottom: 60px;
+  padding-right:64px;
+  padding-left: 64px;
+  display: block;
+  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
 }
 
 aside a.button {
@@ -273,7 +281,7 @@ form {
 } 
 
 .main-content h2:before {
-  content: "//";
+  content: "/";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2.0em;
@@ -289,7 +297,7 @@ form {
 } 
  
 .main-content h3:before {
-  content: "///";
+  content: "//";
   color: #9ddcff;
   padding-right: 0.2em;
   margin-left: -1.4em;
@@ -303,7 +311,7 @@ form {
 } 
 
 h4:before {
-  content: "////";
+  content: "///";
   color: #9ddcff;
   padding-right: 0.1em;
   margin-left: -0.8em;
