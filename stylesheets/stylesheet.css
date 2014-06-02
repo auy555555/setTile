@@ -2,6 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,7 +24,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -46,7 +52,10 @@ table {
 	border-spacing: 0;
 }
 
+
+
 /* LAYOUT STYLES */
+
 body {
   font-size: 15px;
   line-height: 1.5; 
@@ -138,16 +147,19 @@ a.button {
   padding-top: 22px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
 }
+
 a.button small {
   display: block;
   font-size: 11px;
 }
+
 header a.button {
   position: absolute;
   right: 0;
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+
 aside a.button {
   width: 138px;
   padding-left: 64px;
@@ -189,6 +201,7 @@ ul, ol, dl {
 }
 
 
+
 /* COMMON STYLES */
 
 hr {
@@ -222,6 +235,7 @@ form {
 }
 
 
+
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
@@ -245,6 +259,7 @@ form {
   margin-bottom: 8px;
   color: #474747;
 } 
+
 #main-content h2:before {
   content: "//";
   color: #9ddcff;
@@ -369,6 +384,9 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+
+
+
 /* #Media Queries
 ================================================== */
 
@@ -380,18 +398,23 @@ footer a:hover {
   .inner {
     width: 740px;
   }
+  
   header h1, header h2 {
     width: 340px;
   }
+  
   header h1 {
     font-size: 60px;
   }
+  
   header h2 {
     font-size: 30px;
   }
+  
   #main-content {
     width: 490px;
   }
+  
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
@@ -404,26 +427,33 @@ footer a:hover {
   }
 }
 
+
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
   .inner {
     width: 93%;
   }
+  
   header {
     padding: 20px 0;
   }
+  
   header .inner {
     position: relative;
   }
+  
   header h1, header h2 {
     width: 100%;
   }
+  
   header h1 {
     font-size: 48px;
   }
+  
   header h2 {
     font-size: 24px;
   }
+  
   header a.button {
     background-image: none;
     width: auto;
@@ -441,15 +471,18 @@ footer a:hover {
     -webkit-border-radius: 5px;                     
     border-radius: 5px;    
   }
+  
   header a.button small {
     font-size: 13px;
     display: inline;
   }
+  
   #main-content,
   aside#sidebar {
     float: none;
     width: 100% ! important;
   }
+  
   aside#sidebar {
     background-image: none;
     margin-top: 20px;
@@ -457,9 +490,11 @@ footer a:hover {
     padding: 20px 0;
     min-height: 0;
   }
+  
   aside#sidebar a.button {
     display: none;
   }
+  
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
@@ -472,8 +507,10 @@ footer a:hover {
   }
 }
 
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
