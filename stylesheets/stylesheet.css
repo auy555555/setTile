@@ -163,13 +163,18 @@ header a.button {
 a.button1 {
   width: 138px;
   padding-top: 25px;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   padding-right:64px;
   padding-left: 64px;
   display: block;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
   color: #fff;
   font-size: 18px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+}
+
+a.button1 small {
+  font-size: 14px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
 }
 
@@ -258,21 +263,21 @@ form {
   border-color: #7dd1ff;
 } 
 
-.main-content h1 {
+.main-content a1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 30px;
   letter-spacing: -1px;
   color: #474747;
 } 
 
-.main-content h1:before {
+.main-content a1:before {
   content: "/";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2.4em;
 }
 
-.main-content h2 {
+.main-content a2 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 22px;
   font-weight: bold;
@@ -280,14 +285,14 @@ form {
   color: #474747;
 } 
 
-.main-content h2:before {
+.main-content a2:before {
   content: "/";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2.0em;
 }
 
-.main-content h3 {
+.main-content a3 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 18px;
   font-weight: bold;
@@ -296,34 +301,34 @@ form {
   color: #474747;
 } 
  
-.main-content h3:before {
+.main-content a3:before {
   content: "//";
   color: #9ddcff;
   padding-right: 0.2em;
   margin-left: -1.4em;
 }
 
-.main-content h4 {
+.main-content a4 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 16px;
   font-weight: bold;
   color: #474747;
 } 
 
-h4:before {
+.main-content a4:before {
   content: "///";
   color: #9ddcff;
   padding-right: 0.1em;
   margin-left: -0.8em;
 }
 
-.main-content h5 {
+.main-content a5 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 14px;
   color: #474747;
 } 
 
-.main-content h6 {
+.main-content a6 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: .8em;
   color: #474747;
