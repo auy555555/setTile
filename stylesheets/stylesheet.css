@@ -64,7 +64,7 @@ body {
   font-size: 15px;
   line-height: 1.5; 
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: "Microsoft YaHei";
   font-weight: 400;
   color: #666;
 }
@@ -79,7 +79,7 @@ a:hover {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Arial'; 
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
@@ -129,24 +129,21 @@ header h2 {
 
 a.button {
   width: 134px;
-  height: 58px;
-  line-height: 1.2;
-  font-size: 16px;
+  height: 55px;
+  font-size: 18px;
   color: #fff;
-  padding-left: 68px;
-  padding-top: 22px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-}
-
-header a.button {
-  position: absolute;
-  right: 0;
-  top: 0;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  padding-right:64px;
+  padding-left: 64px;
+  display: block;
+  font-family: "Arial"; 
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 
 a.button1 {
   width: 138px;
+  height: 55px;
   padding-top: 18px;
   padding-bottom: 10px;
   padding-right:64px;
@@ -155,12 +152,11 @@ a.button1 {
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
   color: #fff;
   font-size: 18px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: "Arial"; 
 }
 
 a.button1 small {
   font-size: 14px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
 }
 
 code, code1 {
@@ -226,10 +222,11 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 .main-content {
-  margin-top: 15px;
-  padding-left: 5.0em;
-  border-style: solid;;
-  border-color: #7dd1ff;
+	margin-top: 15px;
+	padding-left: 5em;
+	border-style: solid;
+	;
+	border-color: #7dd1ff;
 } 
 
 .main-content .date {
@@ -240,7 +237,6 @@ form {
 } 
 
 .main-content a1 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 30px;
   letter-spacing: -1px;
   color: #474747;
@@ -254,7 +250,6 @@ form {
 }
 
 .main-content a2 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -269,7 +264,6 @@ form {
 }
 
 .main-content a3 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 18px;
   font-weight: bold;
   margin-top: 24px;
@@ -285,7 +279,6 @@ form {
 }
 
 .main-content a4 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 16px;
   font-weight: bold;
   color: #474747;
@@ -298,13 +291,7 @@ form {
   margin-left: -0.8em;
 }
 
-.main-content a5 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  color: #474747;
-} 
-
-.main-content a6 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+.main-content a5, .main-content a6{
   color: #474747;
 } 
 
